@@ -45,7 +45,7 @@ pub fn init_bank(num_workers: usize, filename: &str) {
     }
 
     for handle in handles {
-        handle.join().unwrap();
+        handle.join().expect("Thread failed");
     }
 
     bank.print_account();
@@ -73,13 +73,6 @@ fn load_ledger(filename: &str, ledger: &mut Arc<Mutex<VecDeque<Ledger>>>) {
 
 fn worker(worker_id: usize, bank: Arc<Bank>, ledger: Arc<Mutex<VecDeque<Ledger>>>) {
     loop {
-        // let found_ledger = {
-        //     let ledger_ref = ledger.lock().unwrap();
-        //     match ledger_ref.first() {
-        //         Some(first_element) => Some(first_element),
-        //         None => None,
-        //     }
-        // };
 
         let mut ledger_ref = ledger.lock().unwrap();
 

@@ -25,5 +25,4 @@ fn main() {
     };
 
     init_bank(p as usize, &args[2]);
-    // println!("Hello, world!");
 }
