@@ -21,8 +21,29 @@ Particularly, there is multiple accounts in the bank and each account has a bala
 3. Understand how to keep critical sections as small as possible.
 4. Prevent deadlocks.
 
+## Installation
+
+1. Make sure you have Rust and Cargo installed. If not, follow the official Rust installation guide: [Rust Installation Guide](https://www.rust-lang.org/tools/install).
+
+2. Clone the repository:
+
+    ```shell
+    git clone https://github.com/ThomasN12/bank-system-rust
+3. Navigate the project directory:
+    ```shell
+    cd bank-system
+3. Build the project using Cargo:
+    ```shell
+    cargo build
+4. Run the project with the following command:
+    ```shell
+    cargo run -- <num_workers> <ledger_filename>
+
 ## Video Presentation
 [Link to video](https://drive.google.com/file/d/1Ti4ovvphwQYQYgczclwkTAH4yluc6t_Z/view?usp=sharing)
+
+## Slides
+[Link to slide](https://docs.google.com/presentation/d/1HH4uaMCePURDQnES0Itl3q2Dm7TtbcZ9UFhD-bga04s/edit?usp=sharing)
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
