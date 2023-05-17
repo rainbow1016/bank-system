@@ -39,7 +39,8 @@ Particularly, there is multiple accounts in the bank and each account has a bala
     cargo run -- <num_workers> <ledger_filename>
 
 ## Video Presentation
-[Link to video](https://drive.google.com/file/d/1Ti4ovvphwQYQYgczclwkTAH4yluc6t_Z/view?usp=sharing)
+1. [Link to video](https://youtu.be/nEB7b6ynsek)
+2. [Link to video-2](https://drive.google.com/file/d/1Ti4ovvphwQYQYgczclwkTAH4yluc6t_Z/view?usp=sharing) (In case the first one not working)
 
 ## Slides
 [Link to slide](https://docs.google.com/presentation/d/1HH4uaMCePURDQnES0Itl3q2Dm7TtbcZ9UFhD-bga04s/edit?usp=sharing)
