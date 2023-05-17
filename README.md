@@ -16,10 +16,9 @@ Particularly, there is multiple accounts in the bank and each account has a bala
 - The program will initialize a bank with 10 accounts. Then, it loads a text file containing the information of the ledger and creates "num_workers" (input from terminal) threads to process the transactions in the ledger list concurrently. Finally, the program will print the balance of all the accounts in the bank.
 
 ## Learning Objectives
-1. Create multiple working threads.
-2. Initialize locks the proper way and destroy them when done.
-3. Understand how to keep critical sections as small as possible.
-4. Prevent deadlocks.
+1. Create multiple concurrent tasks using Rust's built-in threading capabilities.
+2. Apply Rust's ownership and borrowing system to minimize the scope and duration of critical sections, reducing the likelihood of data races.
+3. Employ Rust's synchronization primitives, such as Mutex and RwLock, to prevent deadlocks and ensure thread-safe execution.
 
 ## Installation
 
